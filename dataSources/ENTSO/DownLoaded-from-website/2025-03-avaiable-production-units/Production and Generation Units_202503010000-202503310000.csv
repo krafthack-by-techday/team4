@@ -1,0 +1,17 @@
+"PU EIC Code","PU Name","Valid From","Valid To","PU Status","PU Type","PU Location","PU Installed
+Capacity","Control Area","Bidding Zone","Last Update","PU Voltage","GU Code","GU Name","GU Status","GU Type","GU Location","GU Installed
+Capacity"
+"50WP00000000566M","Rendalen","05.12.2016","Infinity","DECOMMISSIONED","B12","Rendalen","113.10","10YNO-0--------C","10YNO-1--------2","26.06.2015","2.00","50WG00000001331D","Rendaleng1 Hydro","DECOMMISSIONED","B12","50WP00000000566M","110.00"
+"50WP00000000565O","Rendal 2","05.10.2018","Infinity","COMMISSIONED","B12","Rendal 2","114.00","10YNO-0--------C","10YNO-1--------2","","11.00","50WG00000001330F","Rendal_2g1 Hydro","COMMISSIONED","B12","50WP00000000565O","114.00"
+"50WP00000000749E","Torpa","05.12.2016","Infinity","COMMISSIONED","B12","Torpa","164.00","10YNO-0--------C","10YNO-1--------2","05.12.2016","8.00","","","","","",""
+"50WP00000000852L","Ovre Vinstra","05.10.2018","Infinity","COMMISSIONED","B12","Ovre Vinstra","140.00","10YNO-0--------C","10YNO-1--------2","","12.00","","","","","",""
+"50WP00000000855F","Abjora","05.12.2016","Infinity","DECOMMISSIONED","B12","Abjora","103.00","10YNO-0--------C","10YNO-1--------2","26.06.2015","11.00","50WG00000002150C","Abjora G1 Hydro","DECOMMISSIONED","B12","50WP00000000855F","103.00"
+"50WP00000000651V","Solberg2","05.12.2016","Infinity","COMMISSIONED","B11","Solberg2","100.00","10YNO-0--------C","10YNO-1--------2","05.12.2016","15.50","50WG00000001553W","Solberg2g1 Hydro","COMMISSIONED","B11","50WP00000000651V","100.00"
+"50WP00000000650X","Solberg1","05.12.2016","Infinity","COMMISSIONED","B11","Solberg1","110.50","10YNO-0--------C","10YNO-1--------2","05.12.2016","10.00","","","","","",""
+"50WP000000007957","Vamma","05.12.2016","Infinity","COMMISSIONED","B11","Vamma","213.00","10YNO-0--------C","10YNO-1--------2","","5.00","50WG00000002015I","Vamma G11 Hydro","COMMISSIONED","B11","50WP000000007957","105.00"
+"50WP000000007957","Vamma","05.12.2016","Infinity","COMMISSIONED","B11","Vamma","213.00","10YNO-0--------C","10YNO-1--------2","","5.00","50WG000000023261","Vamma G12 Hydro","COMMISSIONED","B11","Vamma","129.00"
+"50WP000000001491","F.K.F","05.12.2016","Infinity","COMMISSIONED","B11","F.K.F","230.00","10YNO-0--------C","10YNO-1--------2","05.12.2016","10.00","","","","","",""
+"50WP000000005039","Nedre Vinstra","05.12.2016","Infinity","COMMISSIONED","B12","Nedre Vinstra","344.00","10YNO-0--------C","10YNO-1--------2","05.12.2016","10.00","50WG00000001145A","Nedre_Vig5 Hydro","COMMISSIONED","B12","50WP000000005039","108.00"
+"50WP00000000639L","Skollenborg","05.12.2016","Infinity","DECOMMISSIONED","B12","Skollenborg","102.00","10YNO-0--------C","10YNO-1--------2","26.06.2015","11.00","","","","","",""
+"50WP000000003370","Kaggefoss","05.12.2016","Infinity","DECOMMISSIONED","B11","Kaggefoss","101.00","10YNO-0--------C","10YNO-1--------2","26.06.2015","50.00","","","","","",""
+"50WP00000000294T","Hunderfossen","05.12.2016","Infinity","DECOMMISSIONED","B12","Hunderfossen","124.00","10YNO-0--------C","10YNO-1--------2","26.06.2015","66.00","","","","","",""

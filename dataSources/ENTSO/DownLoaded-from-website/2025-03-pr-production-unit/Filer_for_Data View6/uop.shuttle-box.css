@@ -1,0 +1,72 @@
+.shuttlebox-div-left,
+.shuttlebox-div-right {
+    float: left;
+    width: 239px;
+}
+
+.ui-tabs-panel .shuttlebox-div-left,
+.ui-tabs-panel .shuttlebox-div-right {
+    width: 225px;
+}
+
+.shuttlebox-div-left label,
+.shuttlebox-div-right label {
+    display: block;
+    clear: right;
+    color: #6B6B6B;
+    margin-bottom: 5px;
+}
+
+select.shuttlebox-left,
+select.shuttlebox-right {
+    width: 100%;
+    float: left;
+    height: 160px;
+    font-size: 13px;
+}
+
+.shuttlebox-div-left, .shuttlebox-div-right {
+    background: none;
+}
+
+div.shuttle-buttons {
+    width: 30px;
+    padding: 0 5px;
+    float: left;
+    height: 160px;
+}
+
+div.shuttle-buttons-middle {
+    height: 60px;
+    margin-top: 65px;
+}
+
+.shuttle-button-right {
+    margin-bottom: 5px;
+}
+
+.ui-icon-shuttle-left {
+    background-image: url("../../images/icons/Icon_Sort_Left.png");
+    background-position: center center;
+}
+
+.ui-icon-shuttle-right {
+    background-image: url("../../images/icons/Icon_Sort_Right.png");
+    background-position: center center;
+}
+
+div.shuttle-button-left:hover, div.shuttle-button-right:hover {
+    cursor: pointer;
+}
+
+.shuttle-buttons-inner .ui-button-light {
+    padding: 0;
+}
+
+.shuttle-buttons-inner .ui-state-active {
+    border: 1px solid #5D5D8C !important;
+}
+
+.shuttle-buttons-inner .ui-button-light:hover.ui-state-active {
+    background-color: #9292b7 !important;
+}

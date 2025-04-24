@@ -1,0 +1,44 @@
+/* Override font for custom labels */
+label {
+    font-size: 13px;
+}
+
+div.ld-data-file label.error-message {
+    position: absolute;
+}
+
+.next-to-button {
+    line-height: 26px;
+    margin-left: 30px;
+}
+
+.submit-button {
+    font-size: 13px;
+}
+
+.ld-data-file input {
+    float: left;
+}
+
+#upload-form div.form-divider {
+    width: 100%;
+    height: 30px;
+}
+
+#upload-form div.form-item-divider {
+    width: 29px;
+}
+
+#upload-form div.wrapper-left {
+    display: inline-block;
+    float: left;
+}
+
+#upload-form #description {
+    height: 100px;
+}
+
+/* fix to make it same width as .formItem */
+#upload-form div.form-item--width input#file-text {
+    width: 239px;
+}

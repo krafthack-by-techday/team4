@@ -1,0 +1,256 @@
+div.dataTables_length {
+	font-size: 13px;
+	width: 48%;
+	float: left;
+}
+
+div.dataTables_length label {
+	font-size: 13px;
+	color: #6B6B6B;
+}
+
+div.dataTables_length a {
+	margin-left: 5px;
+	width: 28px;
+	padding: 0;
+}
+
+div.dataTables_paginate {
+	width: 48%;
+	float: right;
+	text-align: right;
+}
+
+.newBottom {
+	margin-top: 10px;
+}
+
+.ui-icon-first-page {
+	background-image: url(../../images/icons/Icon_First.png) !important;
+}
+
+.ui-icon-last-page {
+	background-image: url(../../images/icons/Icon_Last.png) !important;
+}
+
+.ui-icon-next-page {
+	background-image: url(../../images/icons/Icon_Next.png) !important;
+}
+
+.ui-icon-previous-page {
+	background-image: url(../../images/icons/Icon_Previous.png) !important;
+}
+
+.paginate_button_disabled {
+	display: none;
+}
+
+.paginate_button .ui-icon {
+	height: 28px;
+	width: 29px;
+	margin-top: -14px;
+	margin-left: -14px;
+}
+
+.paginate_active {
+	margin: 10px;
+	color: black;
+	font-weight: bold;
+	line-height: 30px;
+	font-size: 13px;
+}
+
+div.paging_full_numbers .paginate_button {
+	margin-left: 5px;
+	width: 28px;
+	padding: 0;
+}
+
+.dataTables_processing {
+	display: none;
+}
+
+.dt-filter-button {
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	padding: 0;
+	float: right;
+	margin-top: 10px;
+}
+
+.dt-filter-container {
+	position: absolute;
+	/* Positioning has to be finalized while opening the box */
+	width: 230px;
+	height: 38px;
+	line-height: 38px;
+	border: 2px solid #FDC400;
+	background-color: white;
+	z-index: 102;
+	padding: 7px 7px 0;
+}
+
+.dt-filter-container > input.dt-filter {
+	width: 170px;
+	font-size: 13px;
+}
+
+.dt-filter-container input[type=text],
+.dt-filter-container div.ui-combobox {
+	float: left;
+}
+
+.dt-filter-container .dt-filter-trigger-button {
+	font-size: 13px;
+	height: 25px;
+	padding: 0 5px;
+	float: right;
+	margin-top: 2px;
+}
+
+.pre-table-button {
+	width: 28px;
+	height: 28px;
+	background-repeat: no-repeat;
+	padding: 0;
+}
+
+.pre-table-button.small-button {
+	width: 18px;
+	height: 18px;
+}
+
+.operation-delete {
+	background-image: url(../../images/icons/Icon_Delete.png);
+}
+
+.operation-delete.small-button {
+	background-image: url(../../images/icons/Icon_Delete_small.png);
+}
+
+.operation-suspend {
+	background-image: url(../../images/icons/Icon_Suspend.png);
+}
+
+.operation-reactivate {
+	background-position: center center;
+	background-image: url(../../images/icons/Icon_Reactivate_Data_Flow.png);
+}
+
+.operation-edit, .operation-outage-edit {
+	background-image: url(../../images/icons/Icon_Edit.png);
+}
+
+.operation-history, .operation-outage-history {
+	background-image: url(../../images/icons/Icon_Detail.png);
+	background-size: 28px, 28px;
+}
+
+.operation-info {
+	background-image: url(../../images/icons/Icon_Information-Blue.png);
+}
+
+.operation-detail-expand {
+	background-position: 5px 5px;
+	background-image: url(../../images/icons/Icon_Plus.png);
+}
+
+.operation-detail-expand.small-button {
+	background-position: 0 0;
+	background-image: url(../../images/icons/Icon_Plus_small.png);
+	margin: 0 3px;
+}
+
+.operation-detail-collapse {
+	background-position: 5px 5px;
+	background-image: url(../../images/icons/Icon_Minus.png);
+}
+
+.operation-detail-collapse.small-button {
+	background-position: 0 0;
+	background-image: url(../../images/icons/Icon_Minus_small.png);
+	margin: 0 3px;
+}
+
+.operation-assign-user {
+	background-position: 7px 7px;
+	background-image: url(../../images/icons/Icon_Assign_Contact_Person.png);
+}
+
+.operation-next {
+	background-image: url(../../images/icons/Icon_Activate.png);
+}
+
+.operation-check {
+	background-position: 5px 5px;
+	background-image: url(../../images/icons/Icon_Sort_Check_small.png);
+}
+
+.dt-filter-button-active {
+	background-color: #FDC400 !important;
+}
+
+.dt-help-img {
+	margin-top: 10px;
+	float: right;
+}
+
+input.dt-filter {
+	background-repeat: no-repeat;
+	background-position: right -10px center;
+	background-image: url('../../images/icons/clear-input.png');
+}
+
+input.dt-filter.x {
+	background-position: right 5px center;
+}
+
+input.dt-filter.onX {
+	cursor: pointer;
+}
+
+input.dt-filter-trigger-button.select-filter-button {
+	display: none;
+}
+
+.dt-filter-container.select {
+	width: 173px;
+}
+
+.dt-filter-container.date-range {
+	width: 340px;
+	height: auto;
+	line-height: normal;
+}
+
+.dt-filter-container .dt-filter-trigger-button.dt-filter-button-date-range {
+	display: block;
+	float: none;
+	width: 45px;
+	margin: 5px auto 10px;
+}
+
+label[for$=date-start] {
+	display: inline-block !important;
+}
+.dt-filter-container.date-range {
+	width: 340px;
+	height: auto;
+	line-height: normal;
+}
+
+.dt-filter-container .dt-filter-trigger-button.dt-filter-button-date-range {
+	display: block;
+	float: none;
+	width: 45px;
+	margin: 5px auto 10px;
+}
+
+label[for$=date-start] {
+	display: inline-block !important;
+}
+
+.filter_top_bottom {
+	height: initial;
+}

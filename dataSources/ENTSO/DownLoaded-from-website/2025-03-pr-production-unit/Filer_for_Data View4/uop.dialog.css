@@ -1,0 +1,23 @@
+.top-close-button-container
+{
+	position: absolute;
+	height: 40px;
+	background-color: white;
+	z-index: 100;
+	padding: 10px 10px 0;
+	padding-bottom: 0;
+    box-shadow: 0 -2px 4px -4px rgba(0, 0, 0, 0.85) inset;
+}
+
+.top-close-button-container > a {
+    background-image: none;
+    border-radius: 3px;
+    margin: 0;
+}
+
+.top-close-button-container > a .ui-button-text {
+	background-image: url("../../../images/icons/Icon_Close.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 17px;
+}

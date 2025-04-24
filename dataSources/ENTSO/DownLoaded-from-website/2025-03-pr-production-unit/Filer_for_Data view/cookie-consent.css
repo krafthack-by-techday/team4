@@ -1,0 +1,27 @@
+#cookieconsent-modal {
+    background: linear-gradient(#D2D2D7, #F0F0F2);
+    color: #232323;
+    padding: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    line-height: 1.5em;
+    display: flex;
+}
+
+
+.cookieconsent-message {
+    margin-left: 1em;
+    flex: 1;
+    text-align: left;
+}
+
+.cookieconsent-button {
+    padding: .5em 1em;
+    margin: 0.5em;
+    height: 100%;
+}
