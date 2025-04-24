@@ -1,14 +1,15 @@
 import pandas as pd
 from entsoe import EntsoePandasClient
+import os
 
-client = EntsoePandasClient(api_key="YOUR_TOKEN")
+client = EntsoePandasClient(api_key=os.environ["ENTSOKEY"])
 
-start = pd.Timestamp("2025-04-01", tz="Europe/Oslo")
-end   = pd.Timestamp("2025-04-30T23:00", tz="Europe/Oslo")
+start = pd.Timestamp("2025-03-01", tz="Europe/Oslo")
+end   = pd.Timestamp("2025-03-31T23:00", tz="Europe/Oslo")
 
 # 1) get unit outputs
-df = client.query_generation_per_unit(
-    domain="10YNO-1--------2", start=start, end=end
+df = client.query_generation_per_plant(
+    "NO", start=start, end=end
 )  # yields columns ['resource','GenerationPerUnit']
 
 # 2) get metadata (via HTTP or entsoe-py helper)
