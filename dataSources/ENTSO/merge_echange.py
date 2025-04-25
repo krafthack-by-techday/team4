@@ -23,4 +23,4 @@ merged = merged.apply(pd.to_numeric, errors="coerce").groupby(
 
 # 4. (Optional) sort your index and save
 merged = merged.sort_index()
-merged.to_csv("merged_flows.csv")
+merged.to_csv("merged_exchanges.csv")
